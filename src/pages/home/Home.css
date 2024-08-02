@@ -1,0 +1,22 @@
+.titulo {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(0, 225, 255);
+    text-align: center;
+}
+
+.titulo:hover {
+    background-color: rgba(255, 0, 0, 0.212);
+    color: white;
+    text-decoration: underline;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+
+}
