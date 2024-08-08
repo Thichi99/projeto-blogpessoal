@@ -1,7 +1,7 @@
-import homeLogo from "../../assets/pato.jpg"
+import homeLogo from "../../assets/home.png"
 import "./Home.css"
 
-function home() {
+function Home() {
   return (
     <>
         <div className="bg-fuchsia-900 flex justify-center">
@@ -20,7 +20,7 @@ function home() {
             </div>
         </div>
     </>
-  )
+  );
 }
 
-export default home
+export default Home
