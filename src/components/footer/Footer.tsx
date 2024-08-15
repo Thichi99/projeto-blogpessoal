@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {FacebookLogo, InstagramLogo, LinkedinLogo} from "@phosphor-icons/react"
 import { useContext } from "react"
 import { AuthContext } from "../../contexts/AuthContext"
 
 function Footer() {
 
-    const { usuario, handleLogout } = useContext(AuthContext)
+    const { usuario } = useContext(AuthContext)
 
     let footerComponent
 

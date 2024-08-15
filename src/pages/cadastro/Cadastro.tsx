@@ -1,8 +1,10 @@
-import React, { ChangeEvent, useEffect, useState } from 'react'
+/* eslint-disable react-hooks/exhaustive-deps */
+import { ChangeEvent, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Usuario from '../../models/Usuario'
 import { cadastrarUsuario } from '../../services/Services'
 import './Cadastro.css'
+import { toastAlerta } from '../../utils/toastAlerta'
 
 function Cadastro() {
 
